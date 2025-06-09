@@ -1,0 +1,53 @@
+.banner {
+    background-color: rgb(40, 234, 255);
+    color: #000000;
+    margin: 0 auto;
+    width: 550px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 8px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+}
+
+.banner-info {
+    text-align: center;
+}
+
+.banner-info img {
+    width: 150px;
+    border-radius: 40%;
+}
+
+img{
+    border: dashed 4px rgb(29, 133, 117);
+}
+
+ body {
+      background-image: url("https://images.ctfassets.net/hrltx12pl8hq/7H27gMgHXJzCxmKb8xtXN0/e2708e67813bb739b530247284c6ff1d/2_rivers.webp"); 
+      background-size: cover;       
+      background-repeat: no-repeat; 
+      
+      height: 700px;  
+    }
+
+.banner{
+    float: center;
+}
+
+a{
+    text-decoration: none;
+}
+a link{
+     color: rgb(51, 0, 255);
+}
+
+
+    
+    
+
+
+
+ 
+
