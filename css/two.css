@@ -8,11 +8,12 @@
     justify-content: center;
     align-items: center;
     box-shadow: 10px 8px 10px rgba(0, 0, 0, 0.2);
-    border-radius: 50px;
+    border-radius: 100px;
 }
 
 .banner-info {
     text-align: center;
+    padding-top: 2rem;
 }
 
 .banner-info img {
@@ -25,22 +26,23 @@ img{
 }
 
  body {
-      background-image: url("https://images.ctfassets.net/hrltx12pl8hq/7H27gMgHXJzCxmKb8xtXN0/e2708e67813bb739b530247284c6ff1d/2_rivers.webp"); 
-      background-size: cover;       
-      background-repeat: no-repeat; 
-      
-      height: 700px;  
-    }
+    background-image: url("https://images.ctfassets.net/hrltx12pl8hq/7H27gMgHXJzCxmKb8xtXN0/e2708e67813bb739b530247284c6ff1d/2_rivers.webp"); 
+    background-size: cover;       
+    background-repeat: no-repeat; 
+    /* height: 100vh; */
+}
 
 .banner{
     float: center;
 }
 
-a{
-    text-decoration: none;
-}
-a link{
-     color: rgb(51, 0, 255);
+.link {
+     color: rgb(0, 0, 0);
+     text-decoration: none;
+     display: inline-block;
+     background-color: #f4f4f4;
+     padding: 0.75rem 2rem;
+     border-radius: 100px;
 }
 
 
